@@ -1,3 +1,16 @@
 header {
   background-color: red;
 }
+
+.header {
+  height: 5vh;
+  text-align: right;
+  padding-right: 10px;
+  color: white
+}
+
+img {
+  max-height: 5vh;
+  max-width: 10vw;
+  float: inline-start;
+}

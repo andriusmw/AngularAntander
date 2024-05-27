@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
       this.myReadingService.getData().subscribe(data => {
         this.data = data;
-        console.log(this.data);
+        //console.log(this.data);
       })
   }
 
