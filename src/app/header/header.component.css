@@ -1,3 +1,9 @@
 header {
   background-color: red;
 }
+
+.header {
+  height: 5vh;
+  text-align: right;
+  padding-right: 10px;
+}
