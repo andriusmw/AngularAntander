@@ -26,7 +26,8 @@
                 "input": "public"
               },
               "src/favicon.ico",
-              "src/assets/json.json"
+              "src/assets/json.json",
+              "src/assets/Santander_Argentina_Logo.png"
             ],
             "styles": [
               "src/styles.css"
