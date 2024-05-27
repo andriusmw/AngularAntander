@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ReadingJsonServiceService {
 
-  private jsonURL = 'assets/json.json';
+  private jsonURL = '../../assets/json.json';
 
   constructor(private http: HttpClient) { }
 
