@@ -18,9 +18,9 @@ export class HeaderComponent implements OnInit {
   constructor(private myReadingService: ReadingJsonServiceService) {}
 
   ngOnInit(): void {
-      this.myReadingService.getData().subscribe(data => {
-        this.data = data;
-        //console.log(this.data);
+      this.myReadingService.getHelloMessage().subscribe(response => {
+        this.data = response;
+        console.log(this.data);
       })
   }
 
