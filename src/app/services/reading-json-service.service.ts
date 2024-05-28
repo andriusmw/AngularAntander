@@ -7,13 +7,13 @@ import { Observable } from 'rxjs';
 })
 export class ReadingJsonServiceService {
 
-  private jsonURL = '../../assets/json.json';
+  private helloURL = 'http://localhost:8080/user-info';
 
   constructor(private http: HttpClient) { }
 
   //La función
-  getData(): Observable<any> {
-    return this.http.get(this.jsonURL)
+  getHelloMessage(): Observable<any> {
+    return this.http.get(this.helloURL);
   }
 
 }
